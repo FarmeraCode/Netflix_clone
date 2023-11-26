@@ -7,7 +7,7 @@
   }
 
   .main {
-      background-image: url(../media/banner.jpg);
+      background-image: url(media/banner.jpg);
       background-size: max(1500px, 100vw);
       height: 110vh;
       background-position: center center;
