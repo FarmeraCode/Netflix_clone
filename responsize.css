@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600;900&display=swap');
+
+@media (max-device-width: 1209px) {
+
+    .search_bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search_bar :nth-child(1) {
+        width: 90vw;
+        font-size: 30px;
+    }
+
+    nav img {
+        margin: 0 33px;
+    }
+
+    nav button {
+        margin-right: 33px;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .text {
+        min-width: 90vw;
+        min-height: 30vh;
+        margin-top: 5%;
+    }
+
+    .text :nth-child(1) {
+        text-align: center;
+        font-size: 29px;
+    }
+
+    .text :nth-child(2) {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .section {
+        padding-top: 20px;
+        min-height: 80vh;
+        width: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tv_vid img {
+        width: 98vw;
+    }
+
+    .tv_vid video {
+        width: 84vw;
+        margin: 15% 0 0 13%;
+    }
+
+    .tv_vid {
+        overflow: hidden;
+        position: relative;
+        width: 95vw;
+        margin-top: -40px;
+    }
+
+    .download{
+        width: 95vw;
+      }
+    
+    .download img{
+      width: 98vw;
+    }
+
+    .download .card{
+        width: 50vw;
+        height: 10vh;
+        margin-right: 20vw;
+    }
+
+    .download .card .movie{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .download .card :nth-child(1){
+        width: 40px;
+        height: 60px;
+        margin-left: -10px;
+    }
+}
